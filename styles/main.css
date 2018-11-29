@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+
+}
+
+.blockback1{
+    width: 1600px;
+    height: 1082px;
+    background-image: url(../img/background1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+
+}
+
+.header_logo{
+    width: 67px;
+    height: 67px;
+    margin-left: 215px;
+    margin-top: 22px;
+    position: absolute;
+    background-color: #11749e;
+    -webkit-box-shadow: 12px 8px 0px 0px rgba(196,196,196,0.85);
+    -moz-box-shadow: 12px 8px 0px 0px rgba(196,196,196,0.85);
+    box-shadow: 12px 8px 0px 0px rgba(196,196,196,0.85);
+}
+.header_logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30.46pt;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
