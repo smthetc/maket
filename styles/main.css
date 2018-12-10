@@ -70,6 +70,25 @@ li:hover{
 
     
 }
+
+.center-word{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15vw;
+}
+
+#upword{
+    color: #ffffff;
+    font-size: 9vw;
+    font-weight: bold;
+    
+}
+#downord{
+    color: #11749e;
+    font-size: 2vw;
+    letter-spacing: 0.76vw;
+}
+
 /* SECOND BLOCK */
 .aboutagency2{
     width: 100%;
@@ -87,13 +106,13 @@ li:hover{
 
 .highword1{
     color: #fff3;
-    font-size: 17vw;
+    font-size: 15vw;
 }
 
 .highword2{
     color: #ffffff;
     font-size: 3vw;
-    margin-top: -11vw;
+    margin-top: -10vw;
 }
 
 .features{
@@ -193,32 +212,171 @@ li:hover{
     float: left;
 }
 
-.textarea p{
+
+.textareasize{
+    width: 21.375vw;
+}
+
+#moved1{
+    margin: 5.1vw 13.43vw;
+}
+
+#moved2{
+    margin: 6.5vw 4.8vw;
+}
+
+.words-1{
+    font-size: 0.87vw;
+    
+}
+
+.words-2{
+    text-transform: uppercase;
+    font-size: 1.34vw;
+    margin-top: 0.3vw;
+    font-weight: bold;
+}
+
+.words-3{
+    margin-top: 2.2vw;
+    font-size: 0.87vw;
+}
+
+.words-4{
+    margin-top: 2vw;
+    font-size: 0.87vw;
+}
+
+
+/* FOURTH BLOCK */
+
+.blogarea{
+    width: 100%;
+    height: 55vw;
     float: left;
 }
 
-.textareasize{
-    width: 34.375vw;
-    height: 20.625vw;
+#blword1{
+    color: #d7d7d7;
 }
 
+#blword2{
+    color: #111111;
+}
 
+.hitext2{
+    margin-top: 6vw;
+    text-align: center;
+    font-size: 2vw;
+}
 
+.blogspot{
+    width: 77.5vw;
+    height: 30vw;
+    margin-left: 15vw;
+    margin-top: 2vw;
+}
 
+.yep{
+    width: 14vw;
+    height: 33.75vw;
+    float: left;
+    margin-left: 3vw;
+}
 
+.yep p{
+    text-align: center;
+    margin-top: 1vw;
+}
 
+.hh{
+    color: #11749e;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
 
+/* FIFTH BLOCK */
 
+.panel{
+    width: 100%;
+    height: 22.18vw;
+    float: left;
+    background-color: #11749e;
+    color: #ffffff;
+    font-size: 0.95vw;
+}
 
+.panelinf{
+    width: 20vw;
+    height: 0vw;
+    margin: 7vw 20vw;
+}
 
+.panelinf2{
+    width: 20vw;
+    height: 0vw;
+    margin: -7vw 60vw;
+    
+}
 
+/* SIXTH BLOCK */
 
+.keyfe{
+    width: 100%;
+    height: 50vw;
+    float: left;
+    background: url(../img/backke.png) no-repeat;
+    background-size: 100% 50vw;
+}
 
+.textareakey{
+    width: 20vw;
+    float: left;
+    color: #ffffff;
+    margin: 10vw 20vw;
+}
 
+.imgareakey{
+    float: left;
+    margin-top: 5vw;
+}
 
+.hiketext{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+}
 
+.hiketext2{
+    margin-top: 3.5vw;
+    font-size: 0.95vw;
+    margin-bottom: 3vw;
+}
 
+#backtextkey{
+    background-color: #11749e;
+    text-transform: uppercase;
+    margin-top: 0.8vw;
+    background-size: 1vw 1vw;
+    font-size: 1vw;
+    padding: 0.5vw 0.5vw;
+}
 
+.firstbacktext{
+    width: 16vw;
+    
+}
+
+.secondbacktext{
+    width: 17vw;
+}
+
+.thirdbacktext{
+    width: 18vw;
+}
+
+.imgphone{
+    margin-top: 4vw;
+}
 
 
 
