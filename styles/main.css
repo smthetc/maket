@@ -287,6 +287,7 @@ li:hover{
 .yep p{
     text-align: center;
     margin-top: 1vw;
+    font-size: 0.9vw;
 }
 
 .hh{
@@ -375,10 +376,72 @@ li:hover{
 }
 
 .imgphone{
-    margin-top: 4vw;
+    margin-top: 5vw;
+    background: url(../img/phone.png) no-repeat;
+    width: 20vw;
+    height: 35vw;
+    margin-left: 55vw;
 }
 
+/* .btn{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 20px;
+    background-color: #111444;
+    cursor: pointer;
+    border: 1px solid red;
+    top: 45vw;
+    left: 45vw;
+    position: fixed;
+} */
 
 
+/* SEVENTH BLOCK */
 
+.team{
+    width: 100%;
+    height: 53vw;
+    float: left;
+}
 
+#hhtext{
+    margin-top: 20vw;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: #fff;
+    text-align: center;
+    width: 11.5vw;
+    height: 2vw;
+    background-size: 100%;
+    margin-left: 1.2vw;
+    padding-top: 0.7vw;
+}
+
+#hhtext2{
+    font-size: 1.05vw;
+    font-weight: bold;
+    margin-top: -0.3vw;-
+}
+
+#backbls{
+    background: url(../img/john.png) no-repeat;
+}
+#backbls2{
+    background: url(../img/lady.png) no-repeat;
+}
+#backbls3{
+    background: url(../img/david.png) no-repeat;
+}
+#backbls4{
+    background: url(../img/sansa.png) no-repeat;
+}
+
+/* EIGHTH BLOCK */
+
+.contactarea{
+    width: 100%;
+    height: 55vw;
+    float: left;
+    background: url(../img/last.png) no-repeat;
+    background-size: 100%;
+}
