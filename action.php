@@ -7,9 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
     
+    <?php
+    var_dump($_POST);
+    echo "<pre>"
+    echo $_POST['name'];
+    echo "</br>";
+    echo $_POST['mail'];
+    echo "</br>";
+    echo $_POST['phonenumber'];
+    echo "</pre>"
     
     ?>
+    
 </body>
 </html>
