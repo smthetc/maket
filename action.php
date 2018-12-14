@@ -36,43 +36,75 @@
     
     $q = $pdo->prepare($sql);
 
-    $q->execute(array(':name'=>$name,
-                      ':mail'=>$mail,
-                      ':nmbr'=>$nmbr,
-                      ':sms'=>$sms));
-
-
-    $pattern_name = "/[a-zA-Z]/";
-    if (!preg_match($pattern_name, $name))
-    echo "Поле name введено не корректно ";
-    else{
-        echo "Поле name введено корректно ";
+    $pattern_name = "/[a-zA-Z]^[0-9]/";
+    $pattern_mail = "/[a-zA-Z0-9]/";
+    $pattern_nmbr = "/[0-9]/";
+    if(!preg_match($pattern_name, $name)){
+        echo 'ne rabotaet';
     }
-    echo "</br>";
-
-    $pattern_mail = "/[a-zA-Z]/";
-    if (!preg_match($pattern_mail, $mail))
-    echo "Поле mail введено не корректно ";
     else{
-        echo "Поле mail введено корректно ";
-    }
-    echo "</br>";
-
-    $pattern_nmbr = "/[a-zA-Z]/";
-    if (!preg_match($pattern_nmbr, $nmbr))
-    echo "Поле nmbr введено не корректно ";
-    else{
-        echo "Поле nmbr введено корректно ";
-    }
-    echo "</br>";
-
-    $pattern_sms = "/[a-zA-Z]/";
-    if (!preg_match($pattern_sms, $sms))
-    echo "Поле sms введено корректно";
-    else{
-        echo "Поле sms введено корректно ";
+        if(!preg_match($pattern_mail, $mail)){
+            echo 'ne rabotaet';
+        }
+        else{
+            if(!preg_match($pattern_nmbr, $nmbr)){
+                echo 'ne rabotaet';
+            }
+            else{
+                $q->execute(array(':name'=>$name,
+                                  ':mail'=>$mail,
+                                  ':nmbr'=>$nmbr,
+                                  ':sms'=>$sms));
+            }
+        }
     }
 
+    // $pattern_name = "/[a-zA-Z]/";
+    // if (!preg_match($pattern_name, $name)){
+    // echo "Поле name введено не корректно ";
+    
+    // }
+    // else{
+    //     echo "Поле name введено корректно ";
+    //     $validinput = $validinput+1;
+    // }
+    // echo "</br>";
+
+    // $pattern_mail = "/[a-zA-Z]/";
+    // if (!preg_match($pattern_mail, $mail)){
+    // echo "Поле mail введено не корректно ";
+    // }
+    // else{
+    //     echo "Поле mail введено корректно ";
+    //     $validinput = $validinput+1;
+    // }
+    // echo "</br>";
+
+    // $pattern_nmbr = "/[a-zA-Z]/";
+    // if (!preg_match($pattern_nmbr, $nmbr)){
+    // echo "Поле nmbr введено не корректно ";}
+    // else{
+    //     echo "Поле nmbr введено корректно ";
+    //     $validinput = $validinput+1;
+    // }
+    // echo "</br>";
+
+    // $pattern_sms = "/[a-zA-Z]/";
+    // if (!preg_match($pattern_sms, $sms)){
+    // echo "Поле sms введено не корректно";
+    // }
+    // else{
+    //     echo "Поле sms введено корректно ";
+    //     $validinput = $validinput+1;
+    // }
+
+    // if($validinput == 4){
+    //     $q->execute(array(':name'=>$name,
+    //                   ':mail'=>$mail,
+    //                   ':nmbr'=>$nmbr,
+    //                   ':sms'=>$sms));
+    // }
+    // echo $validinput;
     ?>
     
 </body>

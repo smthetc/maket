@@ -246,17 +246,17 @@
       <p class="highword2">We’d love to hear about your project</p>
     </div>
     <div class="formarea">
-      <form action="action.php" method="post">
+      <form action="" name="train" method="post">
         <div class="inp">
           <input type="text" name="name" placeholder="Name">
           <input type="email" name="mail" placeholder="Email">
           <input type="tel" name="nmbr" placeholder="Phone">
         </div>
         <div class="inp2">
-          <textarea placeholder="Message"  name="sms"></textarea>
+          <textarea placeholder="Message" name="sms"></textarea>
         </div>
         <div class="submit">
-          <input type="submit" value="submit">
+          <input type="button" onclick="prepare_xml()" value="submit" >
         </div>
     </div>
     </form>
@@ -277,6 +277,7 @@
   <div class="footer">
     <p class="podvinsya">© 2016 PSDfreeberries.com - All Right Reserved</p>
   </div>
+  <div id="trainstop"></div>
   <script src="../maket/node_modules/jquery/dist/jquery.min.js"></script>
   <script src="js/script.js"></script>
 
